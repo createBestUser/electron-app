@@ -10,5 +10,19 @@
   "license": "MIT",
   "dependencies": {
     "electron": "^4.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/createBestUser/electron-app.git"
+  },
+  "keywords": [
+    "electron",
+    "custom",
+    "controls"
+  ],
+  "bugs": {
+    "url": "https://github.com/createBestUser/electron-app/issues"
+  },
+  "homepage": "https://github.com/createBestUser/electron-app#readme"
 }
