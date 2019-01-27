@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>eelectron app</title>
+
+	<link rel="stylesheet" href="./fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="./css/windowControls.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div id="frame">
+        <div id="drag-region">
+
+            <div id="winTitle">
+                <p>electron app</p>
+            </div>
+
+            <div id="winControls">
+                <div class="controls-btn" id="winMin"><i class="fal fa-window-minimize"></i></div>
+                <div class="controls-btn" id="winUnmax" style="display: none"><i class="fal fa-window-restore"></i></div>
+                <div class="controls-btn" id="winMax"><i class="fal fa-window-maximize"></i></div>
+                <div class="controls-btn" id="winClose"><i class="fal fa-window-close"></i></div>
+            </div>
+
+            <div id="winDevControls">
+                <div class="controls-dev-btn"><span id="devTools" class="fas fa-bug"></span></div>
+                <div class="controls-dev-btn"><span id="winReload" class="fas fa-redo-alt"></span></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="main">
+
+		<h1>feel free to use it!</h1>
+
+        <div class="footer">
+
+            <p>with <i class="fas fa-heart"></i> by <a href="#" link_href="https://github.com/createBestUser/" id="openRepo"><code>bogdanbryzh</code></a></p>
+
+        </div>
+
+        <div class="versions">
+        </div>
+
+    </div><!-- #main end -->
+    
+    <script>require('./renderer')</script>
+
+</body>
+</html>

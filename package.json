@@ -1,0 +1,11 @@
+{
+  "name": "elecron-app",
+  "version": "1.0.0",
+  "description": "an electron app with custom controls",
+  "scripts": {
+    "start": "electron ."
+  },
+  "main": "index.js",
+  "author": "bogdanbrizh",
+  "license": "MIT"
+}
